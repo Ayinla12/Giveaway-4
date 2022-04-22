@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/victor-sutty-Sv0AxtA8YxI-unsplash.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 6px;
+    
+}
+
+.wrapper{
+    max-width: 400px;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: #eee;
+}
+p.away{
+    color: red;
+}
+
+.countdown{
+    display: flex;
+
+}
+
+.go{
+    padding: 20px;
+    text-align:center;
+}
+
+.time{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: red;
+}
+
+.good{
+    font-weight: bold;
+    font-size: 1rem;
+    color: red;
+}
+
+.tanke{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .go {
+        padding: 15px;
+    }
+}
